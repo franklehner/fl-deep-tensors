@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools >= 69.0", "wheel"]
+build_backend = "setuptools.build_meta"
+
+[project]
+name = "fl-deep-tensors"
+requires-python = ">= 3.10"
+dynamic = ["version"]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "matplotlib",
+    "Cython",
+    "scikit-learn",
+    "tensorflow",
+    "keras",
+    "h5py",
+    "tables",
+    "Pillow",
+    "opencv-python",
+    "gensim",
+    "click",
+    "pyprind",
+    "nltk",
+    "mlxtend",
+    "tensorflow-datasets",
+]
