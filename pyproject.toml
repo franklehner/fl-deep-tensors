@@ -30,4 +30,5 @@ dependencies = [
     "tensorflow-datasets",
     "pydantic",
     "tensorrt",
+    "imageio",
 ]
