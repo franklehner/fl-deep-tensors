@@ -2,6 +2,9 @@
 requires = ["setuptools >= 69.0", "wheel"]
 build_backend = "setuptools.build_meta"
 
+[tool.setuptools]
+py-modules = []
+
 [project]
 name = "fl-deep-tensors"
 requires-python = ">= 3.10"
@@ -26,4 +29,5 @@ dependencies = [
     "mlxtend",
     "tensorflow-datasets",
     "pydantic",
+    "tensorrt",
 ]
